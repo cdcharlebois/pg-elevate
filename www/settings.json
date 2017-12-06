@@ -1,0 +1,12 @@
+{
+    "url": "https://10.104.111.155:8080",
+    "hybridTabletProfile": "",
+    "hybridPhoneProfile": "",
+    "enableOffline": false,
+    "persistentSession": {
+        "enabled": true,
+        "forceSecurity": true
+    },
+    "username": "",
+    "password": ""
+}

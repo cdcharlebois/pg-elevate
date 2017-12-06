@@ -52,7 +52,7 @@
     <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" source="npm" version="2.9.11"/>
 
 	<plugin name="cordova-plugin-touch-id" source="npm" version="3.2.0"/>
-
+    <plugin name="cordova-plugin-android-fingerprint-auth" source="npm" version="1.4.0"/>
             <plugin name="cordova-plugin-camera" source="npm" spec="2.4.0">
                 <param name="CAMERA_USAGE_DESCRIPTION" value="This app needs to access your camera" />
                 <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="This app needs to access your photo library" />

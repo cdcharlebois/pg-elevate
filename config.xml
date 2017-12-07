@@ -43,7 +43,7 @@
     <plugin name="cordova-sqlite-storage-pgb" source="git" spec="https://github.com/mendix/Cordova-sqlite-storage-pgb.git#storage-master" />
     <plugin name="phonegap-plugin-push" source="npm" spec="1.5.3" />
     <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" source="npm" version="2.9.11"/>
-    <plugin name="cordova-plugin-touch-id" source="npm" version="3.3.0"/>
+    <plugin name="cordova-plugin-touch-id" source="npm" version="3.2.0"/>
     <plugin name="cordova-plugin-android-fingerprint-auth" source="npm" version="1.4.0"/>
     <plugin name="cordova-universal-links-plugin" source="npm" version="1.2.1"/>
     <plugin name="cordova-plugin-camera" source="npm" spec="2.4.0">

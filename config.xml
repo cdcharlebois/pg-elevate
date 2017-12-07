@@ -160,4 +160,5 @@
         <splash src="res/android/screen-ldpi-portrait.png" qualifier="port-ldpi"/>
     </platform>
     <splash src="splash.png" />
+    <plugin name="cordova-plugin-cookieemperor" spec="https://github.com/rtk/cordova-cookie-emperor.git" />
 </widget>

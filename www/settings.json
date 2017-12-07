@@ -8,5 +8,6 @@
         "forceSecurity": true
     },
     "username": "",
-    "password": ""
+    "password": "",
+    "enableAsync": false
 }

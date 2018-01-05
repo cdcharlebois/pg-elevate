@@ -14,6 +14,8 @@
     <!-- allow assets to be loaded and open links in the app itself, see: http://phonegap.com/blog/2012/03/20/access-tags/ -->
     <!-- Issue 204079: Allow retrieval of any resource. Custom widgets can point to anything. -->
     <access origin="*" />
+    <!-- Fix for iframes on iOS | @author: Conner Charlebois @since Jan 2, 2018 -->		
+    <allow-navigation href="https://sprintr.home.mendix.com/*" />
     <!-- Force the default architecture for Android to ARM -->
     <plugin name="com.darktalker.cordova.screenshot" source="npm" spec="0.1.6" />
     <plugin name="com.telerik.plugins.nativepagetransitions" source="npm" spec="0.6.5" />

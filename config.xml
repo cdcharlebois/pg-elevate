@@ -164,4 +164,6 @@
     <splash src="splash.png" />
     <plugin name="cordova-plugin-cookieemperor" spec="https://github.com/rtk/cordova-cookie-emperor.git" />
     <plugin name="com.crosswalk.cookies" spec="https://github.com/dokoto/crosswalk-cookies.git" />
+    <!-- privacy screen -->
+    <plugin name="cordova-plugin-privacyscreen" source="npm"/>
 </widget>

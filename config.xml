@@ -166,5 +166,5 @@
     <plugin name="com.crosswalk.cookies" spec="https://github.com/dokoto/crosswalk-cookies.git" />
     <!-- privacy screen -->
     <plugin name="cordova-plugin-privacyscreen" source="npm"/>
-    <plugin name="cordova-plugin-local-notifications" source="npm"/>
+    <plugin name="cordova-plugin-local-notifications" spec="https://github.com/katzer/cordova-plugin-local-notifications.git"/>
 </widget>

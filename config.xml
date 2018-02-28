@@ -125,7 +125,7 @@
     <plugin name="cordova-plugin-whitelist" source="npm" spec="1.2.2" />
     <platform name="android">
         <!-- CC add 2.28.2018 for notification images -->
-        <icon src="res/android/icon-48-mdpi.png" gap:qualifier=""/>
+        <icon src="res/android/icon-48-mdpi.png" density=""/>
         <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
         <icon src="res/android/icon-144-xxhdpi.png" qualifier="xxhdpi"/>
         <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->

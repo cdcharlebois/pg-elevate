@@ -160,8 +160,7 @@
         <icon src="res/android/icon-96-xhdpi.png" qualifier="xhdpi"/>
         <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
         <splash src="res/android/screen-ldpi-portrait.png" qualifier="port-ldpi"/>
-        <!-- Notification Icon -->
-        <resource-file src="res/android/icon-48-mdpi.png" target="res/drawable/mxElasticNotification.png" />
+        <hook type="before_build" src="hooks/copyDrawableResources.js" />
     </platform>
     <splash src="splash.png" />
     <plugin name="cordova-plugin-cookieemperor" spec="https://github.com/rtk/cordova-cookie-emperor.git" />

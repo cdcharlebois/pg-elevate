@@ -160,6 +160,8 @@
         <icon src="res/android/icon-96-xhdpi.png" qualifier="xhdpi"/>
         <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->
         <splash src="res/android/screen-ldpi-portrait.png" qualifier="port-ldpi"/>
+        <!-- Notification Icon -->
+        <resource-file src="res/android/icon-48-mdpi.png" target="mxElasticNotification.png" />
     </platform>
     <splash src="splash.png" />
     <plugin name="cordova-plugin-cookieemperor" spec="https://github.com/rtk/cordova-cookie-emperor.git" />
@@ -167,6 +169,6 @@
     <!-- privacy screen -->
     <plugin name="cordova-plugin-privacyscreen" source="npm"/>
     <plugin name="cordova-plugin-local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications.git#0.8.5"/>
-    <!-- Notification Icon -->
-    <resource-file src="res/android/icon-48-mdpi.png" target="res/drawable/mxElasticNotification.png" />
+
+    
 </widget>

@@ -167,6 +167,7 @@
         <resource-file src="res/android/icon-96-xhdpi.png" target="res/drawable-xhdpi/my_notification_icon.png" />
         <resource-file src="res/android/icon-144-xxhdpi.png" target="res/drawable-xxhdpi/my_notification_icon.png" />
         <resource-file src="res/android/icon-192-xxxhdpi.png" target="res/drawable-xxxhdpi/my_notification_icon.png" />
+         <hook src="hooks/copy-build-extras-gradle.js" type="before_build" />
     </platform>
     <splash src="splash.png" />
     <plugin name="cordova-plugin-cookieemperor" spec="https://github.com/rtk/cordova-cookie-emperor.git" />

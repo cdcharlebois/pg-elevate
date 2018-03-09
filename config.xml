@@ -121,9 +121,9 @@
     <preference name="android-build-tool" value="gradle" />
     <preference name="CrosswalkAnimatable" value="true" />
     <preference name="xwalkMultipleApk" value="true" />
-    <!-- <plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="2.3.0" /> -->
+    <plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="2.3.0" />
     <!-- fork with forced version -->
-    <plugin name="cordova-plugin-crosswalk-webview" spec="https://github.com/fribace/cordova-plugin-crosswalk-webview.git" />
+    <!-- <plugin name="cordova-plugin-crosswalk-webview" spec="https://github.com/fribace/cordova-plugin-crosswalk-webview.git" /> -->
     <plugin name="cordova-plugin-whitelist" source="npm" spec="1.2.2" />
     <platform name="android">
         <!-- Icon definitions - for more details: http://developer.android.com/guide/topics/resources/providing-resources.html -->

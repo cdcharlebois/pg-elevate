@@ -176,4 +176,5 @@
     <plugin name="cordova-plugin-privacyscreen" source="npm"/>
     <plugin name="cordova-plugin-local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications.git#0.8.5"/>
     <!-- <hook type="before_build" src="hooks/copyDrawableResources.js" /> -->
+    <plugin name="cordova-plugin-sslcertificatechecker" />
 </widget>

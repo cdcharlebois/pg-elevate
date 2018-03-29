@@ -105,6 +105,46 @@
             }
         });
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // This script set the execution time out to 30 seconds. Introduced because REST API slow response will not timeout microflows.
+            function waitFor(fnCondition, succesCallback, errorCallBack, timeoutMs, interval) {
+                var waitTime = 0;
+                var id = setInterval(function() {
+                    waitTime += interval;
+                    if (waitTime > timeoutMs) {
+                        clearInterval(id);
+                        errorCallBack();
+                        return;
+                    }
+                    if (fnCondition()) {
+                        clearInterval(id);
+                        succesCallback();
+                        return;
+                    }
+                }, interval);
+            }
+
+            // dojoConfig waiter
+            function waitForDojoConfig(fnCallback) {
+                waitFor(function() {
+                    return window.dojoConfig;
+                }, function() {
+                    console.log("dojoConfig available");
+                    fnCallback();
+                }, function() {
+                    console.log("dojoConfig not created");
+                }, 60000, 10);
+            }
+
+            // -------------
+            // set the value
+            // -------------
+            waitForDojoConfig(function() {
+                window.dojoConfig.server.timeout = 30 * 1000; // 30 seconds
+            });
+        });
+    </script>
 </body>
 
 </html>
